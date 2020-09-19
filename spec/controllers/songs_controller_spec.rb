@@ -99,7 +99,7 @@ RSpec.describe SongsController, type: :controller do
     end
 
     it "re-renders the 'edit' template" do
-      expect(response).to render_template("edit")
+      expect(response).to render_template('edit')
     end
   end
 
